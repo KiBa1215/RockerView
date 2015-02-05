@@ -32,7 +32,6 @@ public class RockerView extends ImageView {
 		super.onDraw(canvas);
 	}
 	
-	@SuppressLint("ClickableViewAccessibility")
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 		
